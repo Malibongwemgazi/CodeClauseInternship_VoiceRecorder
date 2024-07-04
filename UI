@@ -1,0 +1,21 @@
+import tkinter as tk
+from tkinter import messagebox
+
+def start_recording():
+    # Implement start recording logic
+    pass
+
+def stop_recording():
+    # Implement stop recording logic
+    pass
+
+root = tk.Tk()
+root.title("Voice Recorder")
+
+start_button = tk.Button(root, text="Start Recording", command=start_recording)
+start_button.pack(pady=10)
+
+stop_button = tk.Button(root, text="Stop Recording", command=stop_recording)
+stop_button.pack(pady=10)
+
+root.mainloop()
